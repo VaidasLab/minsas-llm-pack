@@ -1,0 +1,11 @@
+{
+  "country": "FR",
+  "primaryTerm": "Constat amiable d'accident",
+  "altTerms": ["déclaration de sinistre", "constat européen"],
+  "reportingDeadlineDays": 5,
+  "policeRequired": "En cas de blessures, délit de fuite ou désaccord majeur",
+  "officialDownload": "https://www.service-public.fr/",
+  "insurerSubmission": "Espace client, application mobile ou courrier selon assureur",
+  "notes": "Photos et témoignages fortement recommandés; respecter les délais contractuels"
+}
+

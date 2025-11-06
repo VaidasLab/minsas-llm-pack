@@ -1,0 +1,11 @@
+{
+  "country": "PL",
+  "primaryTerm": "Europejskie oświadczenie o wypadku",
+  "altTerms": ["zgłoszenie szkody", "formularz wypadkowy"],
+  "reportingDeadlineDays": 7,
+  "policeRequired": "W przypadku obrażeń ciała, ucieczki sprawcy lub poważnych szkód",
+  "officialDownload": "https://www.piu.org.pl/",
+  "insurerSubmission": "Portal klienta, aplikacja mobilna lub e-mail w zależności od ubezpieczyciela",
+  "notes": "Zdjęcia i zeznania świadków zalecane; sprawdzić terminy umowne"
+}
+

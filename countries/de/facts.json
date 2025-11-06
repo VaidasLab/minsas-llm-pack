@@ -1,0 +1,11 @@
+{
+  "country": "DE",
+  "primaryTerm": "Europäischer Unfallbericht",
+  "altTerms": ["Schadenmeldung", "Unfallprotokoll", "Unfallbericht"],
+  "reportingDeadlineDays": 7,
+  "policeRequired": "Bei Personenschaden, Fahrerflucht oder erheblichem Sachschaden",
+  "officialDownload": "https://www.gdv.de/",
+  "insurerSubmission": "Online-Portal, App oder E-Mail je nach Versicherer",
+  "notes": "Fotos und Zeugenaussagen dringend empfohlen; Vertragsfristen beachten"
+}
+
