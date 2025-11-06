@@ -1,0 +1,175 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Minsas Claim Assistant Actions API",
+    "version": "0.1.0",
+    "description": "Read-mostly endpoints used by the public Minsas Claim Assistant GPT to provide checklists, start claim guidance, and app store links.",
+    "termsOfService": "https://minsas.app/terms-of-use.html",
+    "contact": {
+      "name": "Minsas Support",
+      "url": "https://minsas.app",
+      "email": "support@minsas.com"
+    },
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://vaidaslab.github.io/minsas-llm-pack"
+    }
+  ],
+  "paths": {
+    "/actions/v0.1/accident_checklist.json": {
+      "get": {
+        "summary": "Get accident checklist (static mock)",
+        "operationId": "getAccidentChecklist",
+        "x-openai-isConsequential": false,
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Checklist returned",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "checklist": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "sources": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "checklist"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/actions/v0.1/start_claim.json": {
+      "get": {
+        "summary": "Start claim (static mock)",
+        "operationId": "startClaim",
+        "x-openai-isConsequential": false,
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Guidance returned",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "initiated"
+                      ]
+                    },
+                    "nextSteps": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "links": {
+                      "type": "object",
+                      "properties": {
+                        "insurerClaimsUrl": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "directoryUrl": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "appInstall": {
+                          "type": "object",
+                          "properties": {
+                            "ios": {
+                              "type": "string",
+                              "format": "uri"
+                            },
+                            "android": {
+                              "type": "string",
+                              "format": "uri"
+                            }
+                          },
+                          "required": [
+                            "ios",
+                            "android"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "status",
+                    "nextSteps",
+                    "links"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/actions/v0.1/get_store_links.json": {
+      "get": {
+        "summary": "Return iOS/Android store links with UTM parameters",
+        "operationId": "getStoreLinks",
+        "x-openai-isConsequential": false,
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Links returned",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ios": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "android": {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  },
+                  "required": [
+                    "ios",
+                    "android"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {},
+    "securitySchemes": {}
+  }
+}
+

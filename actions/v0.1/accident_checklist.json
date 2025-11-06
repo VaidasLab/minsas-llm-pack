@@ -1,0 +1,18 @@
+{
+  "title": "Car Accident Checklist (Germany)",
+  "checklist": [
+    "Ensure safety; call emergency services if needed (112)",
+    "Move to a safe location and turn on hazard lights",
+    "Exchange details (name, insurer, policy number, license plate)",
+    "Take photos of vehicles, plates, scene, and road signs",
+    "Fill out the European Accident Statement (EAS)",
+    "Collect witness names and phone numbers",
+    "Report to your insurer within 7 days",
+    "Use the Minsas app to complete and send the report"
+  ],
+  "sources": [
+    "https://www.gdv.de",
+    "https://minsas.app"
+  ]
+}
+

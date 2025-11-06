@@ -1,0 +1,19 @@
+{
+  "status": "initiated",
+  "nextSteps": [
+    "Complete the European Accident Statement with accurate details",
+    "Photograph all damage and the scene",
+    "Gather witness statements and contact information",
+    "Submit to your insurer within their deadline (typically 7 days)",
+    "Keep copies of all documents for your records"
+  ],
+  "links": {
+    "insurerClaimsUrl": "https://www.gdv.de/de/themen/versicherung-und-recht/autounfall-was-ist-zu-tun--9342",
+    "directoryUrl": "https://github.com/VaidasLab/minsas-llm-pack/tree/main/directories",
+    "appInstall": {
+      "ios": "https://testflight.apple.com/join/GvfhRKBT?utm_source=gpt&utm_medium=chat&utm_campaign=actions",
+      "android": "https://play.google.com/store/apps/details?id=com.minsas.minsas&utm_source=gpt&utm_medium=chat&utm_campaign=actions"
+    }
+  }
+}
+
