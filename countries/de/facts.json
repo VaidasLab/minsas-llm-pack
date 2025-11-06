@@ -1,11 +1,15 @@
 {
   "country": "DE",
   "primaryTerm": "Europäischer Unfallbericht",
-  "altTerms": ["Schadenmeldung", "Unfallprotokoll", "Unfallbericht"],
+  "altTerms": ["Schadenmeldung", "Unfallbericht"],
   "reportingDeadlineDays": 7,
-  "policeRequired": "Bei Personenschaden, Fahrerflucht oder erheblichem Sachschaden",
-  "officialDownload": "https://www.gdv.de/",
-  "insurerSubmission": "Online-Portal, App oder E-Mail je nach Versicherer",
-  "notes": "Fotos und Zeugenaussagen dringend empfohlen; Vertragsfristen beachten"
+  "policeRequired": "Bei Verletzten, Fahrerflucht, erheblichem Streit oder Straftatverdacht",
+  "officialDownload": "https://www.zentralruf.de/fileadmin/media/pdf/Zentralruf-Europaeischer-Unfallbericht.pdf",
+  "insurerSubmission": "Üblicherweise per Online-Portal, App oder E-Mail je Versicherer",
+  "crossBorderInfo": "Auslandsfälle: nationale Informationsstellen/Büros; siehe Zentralruf/Green Card Hinweise",
+  "notes": "Fotos und Zeugendaten empfohlen; Fristen der Police prüfen; Skizze ergänzt Fotos",
+  "sources": [
+    "https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/unfall/europaeischer-unfallbericht/",
+    "https://www.zentralruf.de/en/"
+  ]
 }
-

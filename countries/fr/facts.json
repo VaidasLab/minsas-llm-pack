@@ -1,11 +1,15 @@
 {
   "country": "FR",
-  "primaryTerm": "Constat amiable d'accident",
-  "altTerms": ["déclaration de sinistre", "constat européen"],
+  "primaryTerm": "Constat amiable d’accident",
+  "altTerms": ["déclaration de sinistre", "formulaire européen"],
   "reportingDeadlineDays": 5,
-  "policeRequired": "En cas de blessures, délit de fuite ou désaccord majeur",
-  "officialDownload": "https://www.service-public.fr/",
-  "insurerSubmission": "Espace client, application mobile ou courrier selon assureur",
-  "notes": "Photos et témoignages fortement recommandés; respecter les délais contractuels"
+  "policeRequired": "En cas de blessés, fuite, infraction présumée ou litige sérieux",
+  "officialDownload": "https://www.service-public.fr/particuliers/vosdroits/F2149",
+  "insurerSubmission": "Portail client, application mobile ou e‑mail selon l’assureur",
+  "crossBorderInfo": "Accidents transfrontaliers: centres/bureaux nationaux d’information; consulter ECC/Your Europe",
+  "notes": "Photos, témoins et croquis utiles; vérifier les délais contractuels",
+  "sources": [
+    "https://www.service-public.fr/particuliers/vosdroits/F2149",
+    "https://www.europe-consommateurs.eu/fr/"
+  ]
 }
-
