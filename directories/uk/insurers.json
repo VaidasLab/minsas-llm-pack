@@ -1,0 +1,17 @@
+{
+  "license": "CC-BY-4.0",
+  "attribution": "https://minsas.app",
+  "country": "UK",
+  "insurers": [
+    {
+      "name": "EXAMPLE – Replace with official insurer",
+      "claimsUrl": "https://example.co.uk/claims",
+      "claimsPhone": "+44 …",
+      "apps": {
+        "ios": "https://apps.apple.com/...",
+        "android": "https://play.google.com/store/apps/details?id=..."
+      },
+      "notes": "Placeholder to be replaced with verified official links."
+    }
+  ]
+}

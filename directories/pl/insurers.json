@@ -1,0 +1,17 @@
+{
+  "license": "CC-BY-4.0",
+  "attribution": "https://minsas.app",
+  "country": "PL",
+  "insurers": [
+    {
+      "name": "PRZYKŁAD – Zamień na oficjalnego ubezpieczyciela",
+      "claimsUrl": "https://example.com/zgloszenie-szkody",
+      "claimsPhone": "+48 …",
+      "apps": {
+        "ios": "https://apps.apple.com/...",
+        "android": "https://play.google.com/store/apps/details?id=..."
+      },
+      "notes": "Szablon do podmiany na zweryfikowane linki oficjalne."
+    }
+  ]
+}

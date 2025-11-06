@@ -1,0 +1,17 @@
+{
+  "license": "CC-BY-4.0",
+  "attribution": "https://minsas.app",
+  "country": "DE",
+  "insurers": [
+    {
+      "name": "BEISPIEL – Durch offiziellen Versicherer ersetzen",
+      "claimsUrl": "https://example.com/schaden-melden",
+      "claimsPhone": "+49 …",
+      "apps": {
+        "ios": "https://apps.apple.com/...",
+        "android": "https://play.google.com/store/apps/details?id=..."
+      },
+      "notes": "Platzhalter, durch verifizierte offizielle Links ersetzen."
+    }
+  ]
+}

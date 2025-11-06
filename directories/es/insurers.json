@@ -1,0 +1,17 @@
+{
+  "license": "CC-BY-4.0",
+  "attribution": "https://minsas.app",
+  "country": "ES",
+  "insurers": [
+    {
+      "name": "EJEMPLO – Sustituir por aseguradora oficial",
+      "claimsUrl": "https://example.com/declarar-siniestro",
+      "claimsPhone": "+34 …",
+      "apps": {
+        "ios": "https://apps.apple.com/...",
+        "android": "https://play.google.com/store/apps/details?id=..."
+      },
+      "notes": "Plantilla a sustituir por enlaces oficiales verificados."
+    }
+  ]
+}

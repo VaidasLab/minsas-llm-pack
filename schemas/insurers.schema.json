@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://minsas.app/schemas/insurers.schema.json",
+  "title": "Insurers Directory",
+  "type": "object",
+  "properties": {
+    "license": { "type": "string" },
+    "attribution": { "type": "string", "format": "uri" },
+    "country": { "type": "string", "minLength": 2, "maxLength": 2 },
+    "insurers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "minLength": 2 },
+          "claimsUrl": { "type": "string", "format": "uri" },
+          "claimsPhone": { "type": "string" },
+          "apps": {
+            "type": "object",
+            "properties": {
+              "ios": { "type": "string", "format": "uri" },
+              "android": { "type": "string", "format": "uri" }
+            },
+            "required": []
+          },
+          "notes": { "type": "string" }
+        },
+        "required": ["name", "claimsUrl"]
+      }
+    }
+  },
+  "required": ["country", "insurers"]
+}

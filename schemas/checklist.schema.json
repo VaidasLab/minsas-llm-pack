@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://minsas.app/schemas/checklist.schema.json",
+  "title": "Accident Checklist",
+  "type": "object",
+  "properties": {
+    "language": { "type": "string" },
+    "steps": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 3
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" }
+    }
+  },
+  "required": ["language", "steps"]
+}

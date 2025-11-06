@@ -1,0 +1,17 @@
+{
+  "license": "CC-BY-4.0",
+  "attribution": "https://minsas.app",
+  "country": "LT",
+  "insurers": [
+    {
+      "name": "PAVYZDYS – Pakeiskite oficialiu draudiku",
+      "claimsUrl": "https://example.com/deklaruoti-zala",
+      "claimsPhone": "+370 …",
+      "apps": {
+        "ios": "https://apps.apple.com/...",
+        "android": "https://play.google.com/store/apps/details?id=..."
+      },
+      "notes": "Šablonas – pakeisti patikrintomis oficialiomis nuorodomis."
+    }
+  ]
+}

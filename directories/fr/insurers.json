@@ -1,0 +1,17 @@
+{
+  "license": "CC-BY-4.0",
+  "attribution": "https://minsas.app",
+  "country": "FR",
+  "insurers": [
+    {
+      "name": "EXEMPLE – Remplacer par assureur officiel",
+      "claimsUrl": "https://example.com/sinistre",
+      "claimsPhone": "+33 …",
+      "apps": {
+        "ios": "https://apps.apple.com/...",
+        "android": "https://play.google.com/store/apps/details?id=..."
+      },
+      "notes": "Gabarit de données à remplacer par des liens officiels vérifiés."
+    }
+  ]
+}

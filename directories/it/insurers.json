@@ -1,0 +1,17 @@
+{
+  "license": "CC-BY-4.0",
+  "attribution": "https://minsas.app",
+  "country": "IT",
+  "insurers": [
+    {
+      "name": "ESEMPIO – Sostituire con assicuratore ufficiale",
+      "claimsUrl": "https://example.com/denuncia-sinistro",
+      "claimsPhone": "+39 …",
+      "apps": {
+        "ios": "https://apps.apple.com/...",
+        "android": "https://play.google.com/store/apps/details?id=..."
+      },
+      "notes": "Segnaposto da sostituire con link ufficiali verificati."
+    }
+  ]
+}
