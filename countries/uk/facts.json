@@ -1,0 +1,10 @@
+{
+  "country": "UK",
+  "primaryTerm": "Accident statement form",
+  "altTerms": ["insurance claim report", "accident report"],
+  "reportingDeadlineDays": 5,
+  "policeRequired": "If injuries, hit‑and‑run, danger, or serious dispute",
+  "officialDownload": "https://www.gov.uk/report-road-traffic-accident",
+  "insurerSubmission": "Usually via portal, app, or email depending on insurer",
+  "notes": "Take photos and collect witness details; check policy for deadlines"
+}

@@ -1,0 +1,10 @@
+{
+  "country": "ES",
+  "primaryTerm": "Parte amistoso de accidente",
+  "altTerms": ["declaración de siniestro", "formulario europeo"],
+  "reportingDeadlineDays": 7,
+  "policeRequired": "En caso de lesiones, fuga, indicios de delito o desacuerdo grave",
+  "officialDownload": "https://www.dgt.es/",
+  "insurerSubmission": "Área de cliente, app o e‑mail según aseguradora",
+  "notes": "Fotos y testigos recomendados; revisar plazos contractuales"
+}

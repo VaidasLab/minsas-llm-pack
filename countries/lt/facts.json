@@ -1,0 +1,10 @@
+{
+  "country": "LT",
+  "primaryTerm": "Eismo įvykio deklaracija",
+  "altTerms": ["žalos deklaravimas", "EID"],
+  "reportingDeadlineDays": 3,
+  "policeRequired": "Jei yra sužalojimų, pabėgimas, grėsmė ar ryškus ginčas",
+  "officialDownload": "https://www.ld.lt/sites/default/files/2022-07/Eismo_ivykio_deklaracija_2015.pdf",
+  "insurerSubmission": "Per draudiko savitarną, programėlę arba el. paštu",
+  "notes": "Nuotraukos ir liudininkai labai padeda; tikrinkite poliso terminus"
+}

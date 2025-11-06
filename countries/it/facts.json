@@ -1,0 +1,10 @@
+{
+  "country": "IT",
+  "primaryTerm": "Constatazione amichevole di incidente",
+  "altTerms": ["denuncia di sinistro", "modulo europeo"],
+  "reportingDeadlineDays": 7,
+  "policeRequired": "In caso di feriti, fuga, sospetto di reato o forte conflitto",
+  "officialDownload": "https://www.poliziadistato.it/",
+  "insurerSubmission": "Area clienti, app o e‑mail a seconda dell’assicuratore",
+  "notes": "Foto e testimoni consigliati; verificare i termini di polizza"
+}
