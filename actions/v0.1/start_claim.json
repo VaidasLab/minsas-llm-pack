@@ -9,11 +9,19 @@
   ],
   "links": {
     "insurerClaimsUrl": "https://www.gdv.de/de/themen/versicherung-und-recht/autounfall-was-ist-zu-tun--9342",
-    "directoryUrl": "https://github.com/VaidasLab/minsas-llm-pack/tree/main/directories",
+    "directoryUrl": "https://vaidaslab.github.io/minsas-llm-pack/directories/",
+    "directories": {
+      "de": "https://vaidaslab.github.io/minsas-llm-pack/directories/de/insurers.json",
+      "fr": "https://vaidaslab.github.io/minsas-llm-pack/directories/fr/insurers.json",
+      "pl": "https://vaidaslab.github.io/minsas-llm-pack/directories/pl/insurers.json",
+      "lt": "https://vaidaslab.github.io/minsas-llm-pack/directories/lt/insurers.json",
+      "es": "https://vaidaslab.github.io/minsas-llm-pack/directories/es/insurers.json",
+      "it": "https://vaidaslab.github.io/minsas-llm-pack/directories/it/insurers.json",
+      "uk": "https://vaidaslab.github.io/minsas-llm-pack/directories/uk/insurers.json"
+    },
     "appInstall": {
       "ios": "https://testflight.apple.com/join/GvfhRKBT?utm_source=gpt&utm_medium=chat&utm_campaign=actions",
       "android": "https://play.google.com/store/apps/details?id=com.minsas.minsas&utm_source=gpt&utm_medium=chat&utm_campaign=actions"
     }
   }
 }
-
